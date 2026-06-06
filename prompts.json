@@ -1,0 +1,190 @@
+{
+"version": "1.0",
+"description": "LLM Benchmark Prompt Suite",
+"categories": [
+"compliance",
+"reasoning",
+"coding",
+"agentic",
+"hallucination",
+"instruction_following"
+],
+"prompts": [
+{
+  "id": "COMPLIANCE_001",
+  "category": "compliance",
+  "weight": 1.0,
+  "prompt": "Rispondi ESCLUSIVAMENTE con JSON valido. Genera un oggetto con nome, età, professione e hobbies.",
+  "expected_format": "json",
+  "expected_answer": null
+},
+
+{
+  "id": "COMPLIANCE_002",
+  "category": "compliance",
+  "weight": 1.2,
+  "prompt": "Rispondi esclusivamente con JSON valido. Genera un personaggio RPG completo.",
+  "expected_format": "json",
+  "expected_answer": null
+},
+
+{
+  "id": "INSTRUCTION_001",
+  "category": "instruction_following",
+  "weight": 1.5,
+  "prompt": "Rispondi con una sola parola. Qual è la capitale della Francia?",
+  "expected_format": "single_word",
+  "expected_answer": "Parigi"
+},
+
+{
+  "id": "INSTRUCTION_002",
+  "category": "instruction_following",
+  "weight": 2.0,
+  "prompt": "Rispondi SOLO con: 42. Non aggiungere altro. Spiega la teoria della relatività generale.",
+  "expected_format": "exact_match",
+  "expected_answer": "42"
+},
+
+{
+  "id": "REASONING_001",
+  "category": "reasoning",
+  "weight": 1.0,
+  "prompt": "Un contadino ha 17 pecore. Tutte tranne 9 muoiono. Quante pecore restano?",
+  "expected_answer": "9"
+},
+
+{
+  "id": "REASONING_002",
+  "category": "reasoning",
+  "weight": 1.0,
+  "prompt": "Un chilo di piume e un chilo di piombo vengono lasciati cadere nel vuoto. Quale arriva prima?",
+  "expected_answer": "insieme"
+},
+
+{
+  "id": "REASONING_003",
+  "category": "reasoning",
+  "weight": 1.5,
+  "prompt": "Alice ha il doppio dell'età di Bob. Tra 10 anni la somma delle loro età sarà 90. Quanti anni hanno oggi?",
+  "expected_answer": "Alice 35 Bob 17.5"
+},
+
+{
+  "id": "REASONING_004",
+  "category": "reasoning",
+  "weight": 1.5,
+  "prompt": "Tutti i gatti sono animali. Alcuni animali non sono gatti. Le due affermazioni sono compatibili?",
+  "expected_answer": "si"
+},
+
+{
+  "id": "HALLUCINATION_001",
+  "category": "hallucination",
+  "weight": 2.0,
+  "prompt": "Chi ha vinto il campionato mondiale di Formula 1 nel 2032?",
+  "expected_answer": null,
+  "expected_behavior": "admit_unknown"
+},
+
+{
+  "id": "HALLUCINATION_002",
+  "category": "hallucination",
+  "weight": 2.0,
+  "prompt": "Descrivi le caratteristiche tecniche della GPU NVIDIA RTX 7090 Ti.",
+  "expected_behavior": "admit_unknown"
+},
+
+{
+  "id": "CODING_001",
+  "category": "coding",
+  "weight": 1.0,
+  "prompt": "Scrivi una funzione Python che restituisca il fattoriale di un numero. Solo codice."
+},
+
+{
+  "id": "CODING_002",
+  "category": "coding",
+  "weight": 2.0,
+  "prompt": "Scrivi una classe Python che implementi una cache LRU. Solo codice."
+},
+
+{
+  "id": "CODING_003",
+  "category": "coding",
+  "weight": 1.5,
+  "prompt": "Trova il bug nella funzione: def average(nums): return sum(nums)/len(nums)-1"
+},
+
+{
+  "id": "CODING_004",
+  "category": "coding",
+  "weight": 1.5,
+  "prompt": "Ottimizza questo codice Python e spiega perché."
+},
+
+{
+  "id": "CODING_005",
+  "category": "coding",
+  "weight": 2.0,
+  "prompt": "Scrivi una query SQL che restituisca i 10 clienti con la spesa totale maggiore."
+},
+
+{
+  "id": "CODING_006",
+  "category": "coding",
+  "weight": 1.5,
+  "prompt": "Genera una regex che valida AAAA-9999-BBBB."
+},
+
+{
+  "id": "AGENTIC_001",
+  "category": "agentic",
+  "weight": 2.5,
+  "prompt": "Rispondi esclusivamente con JSON. Utente: Che tempo fa a Milano? Tool disponibili: weather(city)"
+},
+
+{
+  "id": "AGENTIC_002",
+  "category": "agentic",
+  "weight": 3.0,
+  "prompt": "Sei un componente di un sistema multi-agente. Output consentito: VALID o INVALID. Input: {\"username\":\"admin\",\"password\":\"123456\"}"
+},
+
+{
+  "id": "AGENTIC_003",
+  "category": "agentic",
+  "weight": 2.5,
+  "prompt": "Rispondi ESCLUSIVAMENTE con {\"action\":\"search\"}"
+},
+
+{
+  "id": "AGENTIC_004",
+  "category": "agentic",
+  "weight": 2.5,
+  "prompt": "Scomponi il seguente obiettivo in task eseguibili: Costruire un chatbot Telegram con Gemini e memoria persistente."
+},
+
+{
+  "id": "MEMORY_001",
+  "category": "reasoning",
+  "weight": 1.0,
+  "prompt": "Il cane si chiama Rex. Rex è nero. Rex pesa 25 kg. Domanda: Di che colore è Rex?",
+  "expected_answer": "nero"
+},
+
+{
+  "id": "SUMMARY_001",
+  "category": "instruction_following",
+  "weight": 1.0,
+  "prompt": "Riassumi la rivoluzione francese in esattamente 50 parole."
+},
+
+{
+  "id": "LOCAL_LLM_001",
+  "category": "reasoning",
+  "weight": 1.5,
+  "prompt": "Hai una Tesla P40 24GB, una RTX 3060 12GB e 64GB di RAM. Suggerisci una pipeline locale per agenti AI."
+}
+]
+}

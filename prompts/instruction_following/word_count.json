@@ -1,0 +1,18 @@
+[
+  {
+    "id": "SUMMARY_001",
+    "category": "instruction_following",
+    "subcategory": "word_count",
+    "weight": 1.0,
+    "prompt": "Riassumi la rivoluzione francese in esattamente 50 parole.",
+    "expected_format": "exact_word_count_50"
+  },
+  {
+    "id": "WORDCOUNT_002",
+    "category": "instruction_following",
+    "subcategory": "word_count",
+    "weight": 1.5,
+    "prompt": "Scrivi una poesia sull'intelligenza artificiale di esattamente 30 parole. Né 29 né 31.",
+    "expected_format": "exact_word_count_30"
+  }
+]

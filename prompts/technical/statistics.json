@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TECH_STATS_001",
+    "category": "technical",
+    "subcategory": "statistics",
+    "weight": 1.5,
+    "prompt": "Spiega la differenza tra correlazione e causalità con un esempio concreto.",
+    "expected_format": "explanation_with_example"
+  },
+  {
+    "id": "TECH_STATS_002",
+    "category": "technical",
+    "subcategory": "statistics",
+    "weight": 2.0,
+    "prompt": "Cosa sono gli intervalli di confidenza? Spiega perché un intervallo al 95% non significa 'probabilità del 95% che il parametro sia nell'intervallo'.",
+    "expected_format": "concept_clarification"
+  }
+]

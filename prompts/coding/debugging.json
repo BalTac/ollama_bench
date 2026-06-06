@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CODING_003",
+    "category": "coding",
+    "subcategory": "debugging",
+    "weight": 1.5,
+    "prompt": "Trova il bug in questa funzione e correggilo:\n\ndef average(nums):\n    return sum(nums) / len(nums) - 1",
+    "expected_format": "bug_fix"
+  },
+  {
+    "id": "CODING_DEBUG_002",
+    "category": "coding",
+    "subcategory": "debugging",
+    "weight": 2.0,
+    "prompt": "Questa funzione dovrebbe restituire True se una stringa è palindroma. Trova tutti i bug:\n\ndef is_palindrome(s):\n    s = s.lower()\n    return s == s.reverse()",
+    "expected_format": "bug_fix"
+  }
+]

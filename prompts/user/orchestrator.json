@@ -1,0 +1,10 @@
+[
+  {
+    "id": "USER_ORCH_001",
+    "category": "user",
+    "subcategory": "orchestrator",
+    "weight": 3.0,
+    "prompt": "Progetta un sistema di orchestrazione per agenti AI che gestisce task in parallelo con dipendenze. Descrivi architettura e flusso.",
+    "expected_format": "architecture_design"
+  }
+]

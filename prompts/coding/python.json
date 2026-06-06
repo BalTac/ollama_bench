@@ -1,0 +1,26 @@
+[
+  {
+    "id": "CODING_001",
+    "category": "coding",
+    "subcategory": "python",
+    "weight": 1.0,
+    "prompt": "Scrivi una funzione Python che restituisca il fattoriale di un numero. Solo codice.",
+    "expected_format": "code_only"
+  },
+  {
+    "id": "CODING_002",
+    "category": "coding",
+    "subcategory": "python",
+    "weight": 2.0,
+    "prompt": "Scrivi una classe Python che implementi una cache LRU. Solo codice.",
+    "expected_format": "code_only"
+  },
+  {
+    "id": "CODING_004",
+    "category": "coding",
+    "subcategory": "python",
+    "weight": 1.5,
+    "prompt": "Ottimizza questo codice Python e spiega perché:\n\ndef find_duplicates(items):\n    duplicates = []\n    for i in range(len(items)):\n        for j in range(len(items)):\n            if i != j and items[i] == items[j] and items[i] not in duplicates:\n                duplicates.append(items[i])\n    return duplicates",
+    "expected_format": "code_with_explanation"
+  }
+]

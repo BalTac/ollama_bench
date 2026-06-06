@@ -1,0 +1,42 @@
+[
+  {
+    "id": "AGENTIC_001",
+    "category": "agentic",
+    "subcategory": "tool_calling",
+    "weight": 2.5,
+    "prompt": "Rispondi esclusivamente con JSON nel formato {\"tool\": \"...\", \"args\": {...}}. Utente: 'Che tempo fa a Milano?' Tool disponibili: weather(city), news(topic), search(query).",
+    "expected_format": "json",
+    "deterministic_checks": {
+      "json_valid": {},
+      "required_json_keys": {"keys": ["tool", "args"]},
+      "expected_tools": {"tools": ["weather"]}
+    }
+  },
+  {
+    "id": "AGENTIC_003",
+    "category": "agentic",
+    "subcategory": "tool_calling",
+    "weight": 2.5,
+    "prompt": "Rispondi ESCLUSIVAMENTE con {\"action\":\"search\"} o {\"action\":\"respond\"}. Non aggiungere altro.",
+    "expected_format": "json",
+    "deterministic_checks": {
+      "json_valid": {},
+      "required_json_keys": {"keys": ["action"]},
+      "regex_match": {"pattern": "^\\s*\\{\\s*\"action\"\\s*:\\s*\"(search|respond)\"\\s*\\}\\s*$"}
+    }
+  },
+  {
+    "id": "TOOL_CALL_003",
+    "category": "agentic",
+    "subcategory": "tool_calling",
+    "weight": 3.0,
+    "prompt": "Devi pianificare i tool da chiamare. Rispondi SOLO con JSON nel formato {\"tool_calls\":[{\"name\":\"...\",\"args\":{...}}]}.\n\nTool disponibili:\n- calculate(expression)\n- search_database(query)\n- send_email(to, subject, body)\n\nUtente: 'Quanto fa 15% di 340? Poi manda il risultato a marco@test.it'",
+    "expected_format": "json",
+    "deterministic_checks": {
+      "json_valid": {},
+      "required_json_keys": {"keys": ["tool_calls"]},
+      "tool_sequence": {"sequence": ["calculate", "send_email"]},
+      "expected_tools": {"tools": ["calculate"]}
+    }
+  }
+]

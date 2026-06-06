@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CODING_005",
+    "category": "coding",
+    "subcategory": "sql",
+    "weight": 2.0,
+    "prompt": "Scrivi una query SQL che restituisca i 10 clienti con la spesa totale maggiore. Schema:\n\ncustomers(id, name, email)\norders(id, customer_id, order_date)\norder_items(id, order_id, product_id, quantity, unit_price)",
+    "expected_format": "sql_query"
+  },
+  {
+    "id": "CODING_SQL_002",
+    "category": "coding",
+    "subcategory": "sql",
+    "weight": 1.5,
+    "prompt": "Scrivi una query SQL che trovi i prodotti mai ordinati. Schema:\n\nproducts(id, name, category)\norder_items(id, order_id, product_id, quantity)",
+    "expected_format": "sql_query"
+  }
+]

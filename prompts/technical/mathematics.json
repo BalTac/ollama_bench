@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TECH_MATH_001",
+    "category": "technical",
+    "subcategory": "mathematics",
+    "weight": 1.5,
+    "prompt": "Dimostra che la radice quadrata di 2 è irrazionale.",
+    "expected_format": "mathematical_proof"
+  },
+  {
+    "id": "TECH_MATH_002",
+    "category": "technical",
+    "subcategory": "mathematics",
+    "weight": 1.5,
+    "prompt": "Calcola l'integrale definito di x^2 * e^x da 0 a 1.",
+    "expected_answer": "e - 2"
+  },
+  {
+    "id": "TECH_MATH_003",
+    "category": "technical",
+    "subcategory": "mathematics",
+    "weight": 2.0,
+    "prompt": "Spiega il teorema di Bayes con un esempio concreto di diagnosi medica.",
+    "expected_format": "explanation_with_example"
+  }
+]

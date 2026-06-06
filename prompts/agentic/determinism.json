@@ -1,0 +1,19 @@
+[
+  {
+    "id": "AGENTIC_004",
+    "category": "agentic",
+    "subcategory": "determinism",
+    "weight": 2.5,
+    "prompt": "Scomponi il seguente obiettivo in task eseguibili in formato JSON: 'Costruire un chatbot Telegram con Gemini e memoria persistente.'",
+    "expected_format": "json"
+  },
+  {
+    "id": "DETERM_002",
+    "category": "agentic",
+    "subcategory": "determinism",
+    "weight": 2.0,
+    "prompt": "Rispondi con esattamente le stesse parole di questo prompt, nessuna variazione: 'Il gatto è sul tavolo.'",
+    "expected_format": "exact_match",
+    "expected_answer": "Il gatto è sul tavolo."
+  }
+]

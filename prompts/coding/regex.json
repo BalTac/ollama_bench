@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CODING_006",
+    "category": "coding",
+    "subcategory": "regex",
+    "weight": 1.5,
+    "prompt": "Scrivi una regex che valida il formato AAAA-9999-BBBB dove A è una lettera maiuscola e B è una lettera minuscola. Esempio valido: ABCD-1234-efgh",
+    "expected_format": "regex"
+  },
+  {
+    "id": "CODING_REGEX_002",
+    "category": "coding",
+    "subcategory": "regex",
+    "weight": 1.5,
+    "prompt": "Scrivi una regex che estrae tutti gli indirizzi email validi da un testo. Solo la regex.",
+    "expected_format": "regex"
+  }
+]

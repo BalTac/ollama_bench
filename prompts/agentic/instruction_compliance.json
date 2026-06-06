@@ -1,0 +1,28 @@
+[
+  {
+    "id": "AGENTIC_002",
+    "category": "agentic",
+    "subcategory": "instruction_compliance",
+    "weight": 3.0,
+    "prompt": "Sei un componente di un sistema multi-agente. Output consentito SOLO: VALID o INVALID. Non aggiungere spiegazioni. Input: {\"username\":\"admin\",\"password\":\"123456\"}",
+    "expected_format": "exact_match",
+    "expected_answer": "INVALID",
+    "deterministic_checks": {
+      "exact_match": {"expected": "INVALID"},
+      "allowed_values": {"values": ["VALID", "INVALID"]}
+    }
+  },
+  {
+    "id": "INSTR_COMPLY_002",
+    "category": "agentic",
+    "subcategory": "instruction_compliance",
+    "weight": 2.0,
+    "prompt": "Rispondi SOLO con TRUE o FALSE. Non aggiungere altro. Domanda: 2+2=5?",
+    "expected_format": "exact_match",
+    "expected_answer": "FALSE",
+    "deterministic_checks": {
+      "exact_match": {"expected": "FALSE"},
+      "allowed_values": {"values": ["TRUE", "FALSE"]}
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TECH_CS_001",
+    "category": "technical",
+    "subcategory": "computer_science",
+    "weight": 1.5,
+    "prompt": "Confronta Merge Sort e Quick Sort in termini di complessità temporale, spaziale e stabilità.",
+    "expected_format": "comparison_table"
+  },
+  {
+    "id": "TECH_CS_002",
+    "category": "technical",
+    "subcategory": "computer_science",
+    "weight": 2.0,
+    "prompt": "Spiega come funziona il protocollo TCP three-way handshake.",
+    "expected_format": "step_by_step"
+  },
+  {
+    "id": "TECH_CS_003",
+    "category": "technical",
+    "subcategory": "computer_science",
+    "weight": 2.0,
+    "prompt": "Descrivi la differenza tra multithreading e multiprocessing in Python, incluso il GIL.",
+    "expected_format": "technical_explanation"
+  }
+]

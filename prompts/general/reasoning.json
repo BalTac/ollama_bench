@@ -1,0 +1,42 @@
+[
+  {
+    "id": "REASONING_001",
+    "category": "general",
+    "subcategory": "reasoning",
+    "weight": 1.0,
+    "prompt": "Un contadino ha 17 pecore. Tutte tranne 9 muoiono. Quante pecore restano?",
+    "expected_answer": "9"
+  },
+  {
+    "id": "REASONING_002",
+    "category": "general",
+    "subcategory": "reasoning",
+    "weight": 1.0,
+    "prompt": "Un chilo di piume e un chilo di piombo vengono lasciati cadere nel vuoto. Quale arriva prima?",
+    "expected_answer": "insieme"
+  },
+  {
+    "id": "REASONING_003",
+    "category": "general",
+    "subcategory": "reasoning",
+    "weight": 1.5,
+    "prompt": "Alice ha il doppio dell'età di Bob. Tra 10 anni la somma delle loro età sarà 90. Quanti anni hanno oggi?",
+    "expected_answer": "Alice 35 Bob 17.5"
+  },
+  {
+    "id": "REASONING_004",
+    "category": "general",
+    "subcategory": "reasoning",
+    "weight": 1.5,
+    "prompt": "Tutti i gatti sono animali. Alcuni animali non sono gatti. Le due affermazioni sono compatibili?",
+    "expected_answer": "si"
+  },
+  {
+    "id": "MEMORY_001",
+    "category": "general",
+    "subcategory": "reasoning",
+    "weight": 1.0,
+    "prompt": "Il cane si chiama Rex. Rex è nero. Rex pesa 25 kg. Domanda: Di che colore è Rex?",
+    "expected_answer": "nero"
+  }
+]

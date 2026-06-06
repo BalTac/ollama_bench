@@ -1,0 +1,10 @@
+[
+  {
+    "id": "USER_LOGS_001",
+    "category": "user",
+    "subcategory": "ollama_logs",
+    "weight": 1.5,
+    "prompt": "Scrivi uno script Python che parsa i log di Ollama e produce un riepilogo delle richieste per modello. Solo codice.",
+    "expected_format": "code"
+  }
+]

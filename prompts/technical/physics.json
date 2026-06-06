@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TECH_PHYSICS_001",
+    "category": "technical",
+    "subcategory": "physics",
+    "weight": 1.5,
+    "prompt": "Spiega il paradosso dei gemelli nella relatività ristretta.",
+    "expected_format": "explanation"
+  },
+  {
+    "id": "TECH_PHYSICS_002",
+    "category": "technical",
+    "subcategory": "physics",
+    "weight": 1.5,
+    "prompt": "Qual è la differenza tra un semiconduttore di tipo N e tipo P?",
+    "expected_format": "comparison"
+  }
+]

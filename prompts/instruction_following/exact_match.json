@@ -1,0 +1,18 @@
+[
+  {
+    "id": "EXACT_001",
+    "category": "instruction_following",
+    "subcategory": "exact_match",
+    "weight": 2.0,
+    "prompt": "Ripeti esattamente: 'Il sole splende.' Non aggiungere altro.",
+    "expected_answer": "Il sole splende."
+  },
+  {
+    "id": "EXACT_002",
+    "category": "instruction_following",
+    "subcategory": "exact_match",
+    "weight": 2.0,
+    "prompt": "Rispondi esattamente con: OK. Non scrivere nient'altro. Hai capito?",
+    "expected_answer": "OK"
+  }
+]

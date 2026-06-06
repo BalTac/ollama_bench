@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CODING_ARCH_001",
+    "category": "coding",
+    "subcategory": "architecture",
+    "weight": 2.5,
+    "prompt": "Progetta l'architettura di un sistema di rate limiting distribuito. Descrivi componenti, flusso dati e trade-off.",
+    "expected_format": "architecture_design"
+  },
+  {
+    "id": "CODING_ARCH_002",
+    "category": "coding",
+    "subcategory": "architecture",
+    "weight": 2.0,
+    "prompt": "Confronta architettura monolitica vs microservizi per un'applicazione e-commerce con 1000 ordini/giorno. Quale sceglieresti e perché?",
+    "expected_format": "comparison_with_recommendation"
+  }
+]

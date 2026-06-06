@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+db/*.db
+*.db-journal
+*.db-wal
+
+# Output
+exports/*
+!exports/.gitkeep
+reports/*
+!reports/.gitkeep
+charts/*
+!charts/.gitkeep
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+# (escludi .env ma NON .env.example)
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Graphify artifacts
+graphify-out/*
+!graphify-out/.gitkeep
+graphify-out/.graphify_*
+
+# Test
+test_*.py
+!test_*.py.example

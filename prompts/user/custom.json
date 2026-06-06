@@ -1,0 +1,10 @@
+[
+  {
+    "id": "USER_CUSTOM_001",
+    "category": "user",
+    "subcategory": "custom",
+    "weight": 1.0,
+    "prompt": "Prompt personalizzato. Modifica questo file per aggiungere i tuoi prompt di uso quotidiano.",
+    "expected_format": "any"
+  }
+]

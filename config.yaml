@@ -1,0 +1,37 @@
+# LLM Benchmark Framework — Configurazione
+# Version: 1.1
+
+providers:
+  ollama:
+    base_url: "http://localhost:11434"
+    timeout: 120
+
+  deepseek:
+    base_url: "https://api.deepseek.com"
+    api_key: "${DEEPSEEK_API_KEY}"
+    timeout: 120
+
+  openrouter:
+    base_url: "https://openrouter.ai/api/v1"
+    api_key: "${OPENROUTER_API_KEY}"
+    timeout: 120
+
+judge:
+  provider: deepseek
+  model: deepseek-v4-flash
+  max_retries: 1
+
+paths:
+  prompts_dir: "prompts"
+  db_path: "db/benchmark.db"
+  reports_dir: "reports"
+  charts_dir: "charts"
+  exports_dir: "exports"
+
+benchmark:
+  default_provider: ollama
+  default_suite: all
+
+logging:
+  level: DEBUG
+  file: "benchmark.log"

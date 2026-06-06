@@ -1,0 +1,18 @@
+[
+  {
+    "id": "SUMMARIZATION_001",
+    "category": "general",
+    "subcategory": "summarization",
+    "weight": 1.0,
+    "prompt": "Riassumi la rivoluzione francese in esattamente 50 parole.",
+    "expected_format": "word_count_50"
+  },
+  {
+    "id": "SUMMARIZATION_002",
+    "category": "general",
+    "subcategory": "summarization",
+    "weight": 1.0,
+    "prompt": "Riassumi il seguente testo in 3 punti chiave:\n\nL'intelligenza artificiale generativa ha trasformato il modo in cui interagiamo con i computer. I Large Language Models possono generare testo, codice, immagini e musica. Tuttavia, presentano sfide significative in termini di allucinazioni, bias nei dati di training e costi computazionali. La ricerca attuale si concentra su modelli più efficienti, tecniche di allineamento e meccanismi di retrieval-augmented generation per migliorare l'affidabilità.",
+    "expected_format": "bullet_points_3"
+  }
+]

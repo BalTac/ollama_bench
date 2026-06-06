@@ -1,0 +1,26 @@
+[
+  {
+    "id": "KNOWLEDGE_001",
+    "category": "general",
+    "subcategory": "knowledge",
+    "weight": 1.0,
+    "prompt": "Spiega la differenza tra mitosi e meiosi in massimo 5 frasi.",
+    "expected_format": "short_answer"
+  },
+  {
+    "id": "KNOWLEDGE_002",
+    "category": "general",
+    "subcategory": "knowledge",
+    "weight": 1.0,
+    "prompt": "Quali sono i tre principi della termodinamica? Riassumi ciascuno in una frase.",
+    "expected_format": "structured_list"
+  },
+  {
+    "id": "KNOWLEDGE_003",
+    "category": "general",
+    "subcategory": "knowledge",
+    "weight": 1.5,
+    "prompt": "Hai una Tesla P40 24GB, una RTX 3060 12GB e 64GB di RAM. Suggerisci una pipeline locale per agenti AI.",
+    "expected_format": "technical_recommendation"
+  }
+]

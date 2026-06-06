@@ -1,0 +1,24 @@
+[
+  {
+    "id": "COMPLIANCE_001",
+    "category": "agentic",
+    "subcategory": "json_compliance",
+    "weight": 1.0,
+    "prompt": "Rispondi ESCLUSIVAMENTE con JSON valido. Genera un oggetto con nome, età, professione e hobbies.",
+    "expected_format": "json",
+    "deterministic_checks": {
+      "json_valid": {}
+    }
+  },
+  {
+    "id": "COMPLIANCE_002",
+    "category": "agentic",
+    "subcategory": "json_compliance",
+    "weight": 1.2,
+    "prompt": "Rispondi esclusivamente con JSON valido. Genera un personaggio RPG completo con nome, classe, livello, statistiche (forza, destrezza, intelligenza) e inventario.",
+    "expected_format": "json",
+    "deterministic_checks": {
+      "json_valid": {}
+    }
+  }
+]

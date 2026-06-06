@@ -1,0 +1,18 @@
+[
+  {
+    "id": "USER_TELEGRAM_001",
+    "category": "user",
+    "subcategory": "telegram_bot",
+    "weight": 2.0,
+    "prompt": "Scrivi il codice Python completo per un bot Telegram che risponde ai comandi /start, /help e /echo. Usa python-telegram-bot.",
+    "expected_format": "code"
+  },
+  {
+    "id": "USER_TELEGRAM_002",
+    "category": "user",
+    "subcategory": "telegram_bot",
+    "weight": 2.5,
+    "prompt": "Aggiungi a un bot Telegram esistente un sistema di permessi per utenti admin. Solo codice della parte rilevante.",
+    "expected_format": "code"
+  }
+]
