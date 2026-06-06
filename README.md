@@ -155,3 +155,11 @@ gh repo create ollama_bench --private --source . --remote origin --push
 # quando vuoi renderla pubblica:
 gh repo edit --visibility public
 ```
+
+## Licenza
+
+Questo progetto e distribuito con licenza MIT. Vedi [LICENSE](LICENSE).
+
+## Attribuzioni
+
+Dipendenze open-source e note di attribuzione sono elencate in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
